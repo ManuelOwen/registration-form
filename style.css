@@ -1,0 +1,83 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* display: flex; */
+    margin: 0;
+}
+nav{
+    display: flex;
+    /* background-color: aqua; */
+    height: 60px;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    a:hover{
+color: orangered;
+    }
+    .container{
+        height: 500px;
+        display: flex;
+        /* background-color: aquamarine; */
+        margin-top: 20px;
+        border-radius: 10px;
+        gap: 15px;
+
+    }
+    .image{
+        height: 500px;
+        display: flex;
+        width: 50%;
+        border-radius: 10px;
+        /* background-color: chocolate; */
+    }
+    img{
+        height: 500px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .form{
+      height: 500px;
+    width: 50%;
+    /* background-color: chartreuse; */
+    border-radius: 7px;
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;    
+    align-items: center;        
+    gap: 10px;   
+
+    }
+    input{
+        height: 40px;
+        width: 300px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        border-radius: 10px;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        /* background-color: aqua; */
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: cadetblue;
+        
+    }
